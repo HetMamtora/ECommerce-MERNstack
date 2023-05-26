@@ -1,0 +1,85 @@
+footer {
+    margin-top: 10vmax;
+    padding: 2vmax;
+    background-color: #34495e;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .leftFooter {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .leftFooter > h4 {
+    font-family: "Calibri";
+    font-size: 1vmax;
+  }
+  .leftFooter > p {
+    text-align: center;
+    font: 300 25px "Calibri";
+  }
+  .leftFooter > img {
+    width: 10vmax;
+    margin: 1vmax;
+    cursor: pointer;
+  }
+  
+  .midFooter {
+    width: 80%;
+    text-align: center;
+  }
+  
+  .midFooter > h1 {
+    color: white;
+    font: 500 50px "Calibri";
+  }
+  .midFooter > p {
+    max-width: 60%;
+    font: 100 18px "Calibri";
+    margin: 1vmax auto;
+  }
+  
+  .rightFooter {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rightFooter > h4 {
+    font: 300 25px "Calibri";
+    
+  }
+  .rightFooter > a {
+    text-decoration: none;
+    font: 400 25px "Calibri";
+    color: white;
+    transition: all 0.5s;
+    margin: 0.5vmax;
+  }
+  
+  .rightFooter > a:hover {
+    color: grey;
+  }
+  @media screen and (max-width: 600px) {
+    .leftFooter > p {
+        text-align: center;
+        font: 500 11px "Calibri";
+      }
+    .midFooter > h1 {
+        font: 400 25px "Calibri";
+    }
+    .rightFooter > h4 {
+        font: 400 13px "Calibri";
+        text-decoration: underline;
+      }
+    .rightFooter > a {
+        text-decoration: none;
+        font: 400 11px "Calibri";
+        color: white;
+        transition: all 0.5s;
+        margin: 0.5vmax;
+      }
+  }
