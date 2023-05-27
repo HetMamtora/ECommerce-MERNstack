@@ -16,12 +16,12 @@ if (process.env.NODE_ENV !== "PRODUCTION") {
   }
 
 //CONNCETING TO DATABASE
-//connectDatabase()
-connectDatabase().then(() => {
+connectDatabase()
+/*connectDatabase().then(() => {
     app.listen(PORT, () => {
         console.log("listening for requests");
     })
-})
+})*/
 
 cloudinary.config({
     cloud_name: process.env.CLOUDINARY_NAME,
