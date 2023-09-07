@@ -1,5 +1,6 @@
 ## Author
-@Het Mamtora
+@HetMamtora
+
 GitHub repository hold code for a responsive ecommerce web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. The web app enables users to browse, search for, and purchase products online. It incorporates various technologies and tools, including Cloudinary for image storage, Stripe for payment processing, and Postman for API testing.
 
 Key Features:
